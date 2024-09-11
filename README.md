@@ -1,10 +1,12 @@
 README
 
+PWS Link: http://guruprasanth-meyyarasu-ecommerceapp.pbp.cs.ui.ac.id
+
 Answer 1:
 I created a new directory and installed Django on it. I didn’t only follow the tutorial but moreover I googled and researched on how to implement new things.
 
 Answer 2: 
-
+![alt text](<Screenshot 2024-09-11 at 10.23.18-1.png>)
 
 Answer 3:
 Git can be used in many different ways in software development. Firstly, if you have an app which has a bug, you can recover previous saved versions and update it till the bug is fixed. Secondly, if you have multiple people working on a project, it is often easier to use GitHub as software to individually create new features and merge them with the main branch.

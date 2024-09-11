@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+print(f"HTTP_HOST: {os.environ.get('HTTP_HOST')}")
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +28,7 @@ SECRET_KEY = 'django-insecure-5&^+b%ogelvesj%3)41jz)r&ft%+3ir+o%nhp2$md0&9oie))*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "guruprasanth-meyyarasu-ecommerceapp.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'guruprasanth-meyyarasu-ecommerceapp.pbp.cs.ui.ac.id']
 
 
 # Application definition
