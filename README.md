@@ -24,6 +24,7 @@ It’s a pretty easy to use framework which only needs little refinement. It is 
 Answer 5:
 It is considered an ORM because it allows developers to interact with a database using python and not SQL. That makes it easier for developers, because raw SQL can be hard times use.
 
+
 Assignment 2:
 
 Answer 1:
