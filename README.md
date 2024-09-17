@@ -1,5 +1,7 @@
 README
 
+MY SUBMISSION IS IN BRANCH 'MASTER'
+
 PWS Link: http://guruprasanth-meyyarasu-ecommerceapp.pbp.cs.ui.ac.id
 
 Assignment 1:
