@@ -48,3 +48,20 @@ I followed the tutorial at first, but afterwards it got really messy with the na
 ![json](<Screenshot 2024-09-17 at 15.49.14.png>)
 ![json_by_id](<Screenshot 2024-09-17 at 15.49.27.png>)
 ![xml_by_id](<Screenshot 2024-09-17 at 15.49.35.png>)
+
+Assigment 3:
+
+Answer 1:
+Difference s simplicity and flexibility. You can use redirect() for easier and more flexible redirects, but HttpResponseRedirect() for a specific URL.
+
+Answer 2:
+The MoodEntry or even the Product is linked to the user via a foreignkey. If the user is deleted the key will also be deleted.
+
+Answer 3:
+Authentication is to see if the user is really the user with password for example. Authorization is to determine if the user is allowed to perform a specific task. If a user logs in, then first there will be an authentication, via the database, afterwards a session will be created and lastly the user will be authorized. Authorization (django.contrib.auth), Authentication (@login_required).
+
+Answer 4:
+Django remembers logged in users using sessions, which are stored in cookies. Django sets a session cookie when the user logs in. The cookie has a session id, which will give django the opportunity to log in the user without login information.
+
+Answer 5:
+I googled a lot, and also used the tutorial.

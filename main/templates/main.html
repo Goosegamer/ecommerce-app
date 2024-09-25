@@ -27,6 +27,11 @@
     <a href="{% url 'main:create_product_entry' %}">
       <button>Add New Product</button>
     </a>
+    <a href="{% url 'main:logout' %}">
+      <button>Logout</button>
+    </a>
+    <h5>Last login session: {{ last_login }}</h5>
+    <h5>User: {{ npm }}</h5>
 <h1>Ecommerce App</h1>
 
 <h5>NPM: </h5>
