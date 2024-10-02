@@ -65,3 +65,20 @@ Django remembers logged in users using sessions, which are stored in cookies. Dj
 
 Answer 5:
 I googled a lot, and also used the tutorial.
+
+Assignment 4:
+
+Answer 1:
+The priority order of CSS selectors is determined by specificity (Inline Styles > ID Selectors > Class > Element > Universal Selector)
+
+Answer 2:
+Responsive design is crucial to todays world of multiple devices. It ensures that the website is visible and usable on every device no matter its size or proportions. Without it many websites would only be functionable on a specific device.
+
+Answer 3:
+The difference between these is how they create space around an element. Margin is the space outside an element and controls how far elements are to each other (margin: 20px). Border is betwen Margin and Padding, it is the line surrounding the element (border: 2px solid black). Padding is the space inside the element, between its content and border. (padding: 15px)
+
+Answer 4:
+Flexbox is an one-dimensional layour model which allows user to align and distribute space within a container. That way you can for example center elements or reorder them. With the Flexbox you can only do it either horizontally OR vertically, only one axis. The Grid Layout on the other hand has two axis which can be used, for example for creating full web page layouts or dashboards.
+
+Answer 5:
+I went on the tailwind and bootstrap websites and looked at the possible options I could use, but ended up sticking with the basics, because they looked the best.

@@ -1,26 +1,37 @@
 {% extends 'base.html' %}
 {% block content %}
-    {% if not product_entry %}
-    <p>There are no products in the ecommerce app.</p>
-    {% else %}
-    <table>
-      <tr>
-        <th>Product name</th>
-        <th>Price</th>
-        <th>Description</th>
-      </tr>
-    
-      {% comment %} This is how to display product data
-      {% endcomment %} 
-      {% for product_entry in product_entries %}
-      <tr>
-        <td>{{product_entry.name}}</td>
-        <td>{{product_entry.price}}</td>
-        <td>{{product_entry.description}}</td>
-      </tr>
-      {% endfor %}
-    </table>
-    {% endif %}
+{% include 'navbar.html' %}
+{% if not product_entries %}
+<p>There are no products in the ecommerce app.</p>
+{% else %}
+<table>
+  <tr>
+    <th>Product name</th>
+    <th>Price</th>
+    <th>Description</th>
+  </tr>
+
+  {% comment %} This is how to display product data {% endcomment %} 
+  {% for product_entry in product_entries %}
+  <tr>
+    <td>{{ product_entry.name }}</td>
+    <td>{{ product_entry.price }}</td>
+    <td>{{ product_entry.description }}</td>
+    <td>
+      <a href="{% url 'main:edit_product' product_entry.pk %}">
+        <button>Edit</button>
+      </a>
+    </td>
+    <td>
+      <a href="{% url 'main:delete_product' product_entry.pk %}">
+        <button>Delete</button>
+      </a>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+
     
     <br />
     
