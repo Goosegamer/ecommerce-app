@@ -82,3 +82,18 @@ Flexbox is an one-dimensional layour model which allows user to align and distri
 
 Answer 5:
 I went on the tailwind and bootstrap websites and looked at the possible options I could use, but ended up sticking with the basics, because they looked the best.
+
+Assignment 5:
+
+Answer 1:
+It enables dynamic content, interactivity and real-time updates. Also it supports asynchronous programming like AJAX, making websites more responsive. Lastly it has vast libraries and frameworks which make development faster.
+
+Answer 2:
+We use the await function to pause the code until the fetch function has called the network and gotten an answer. If we didn't do this then the code would execute freely and tryng to access data which the fetch function hasn't recieved yet, which may cause errors.
+
+Answer 3:
+Dango uses CSFR protection for preventing malicious websites from doing stuff, however AJAX POST can't have that. SO basically we are using @csfr_exempt, to bypass the CSFR validation.
+
+Answer 4:
+Front-end is on the user side, so it can be easily manipulated. So to prevent that we need to have an input sanitation in the back-end.
+
